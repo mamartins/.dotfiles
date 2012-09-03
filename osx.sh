@@ -535,7 +535,7 @@ fi
 
 #check if brew is installed and installs it if not
 echo "checking brew"
-command -v brew >/dev/null 2>&1 && echo "Brew already installed" || { echo >&2 "Brew not installed, installing"; ruby <\(curl -fsSk https://raw.github.com/mxcl/homebrew/go\); }
+command -v brew >/dev/null 2>&1 && echo "Brew already installed" || { echo >&2 "Brew not installed, installing"; ruby <\(curl -fsSk https://raw.github.com/mxcl/homebrew/go\≤); }
 
 #make zshell default
 echo "making zshell default"
