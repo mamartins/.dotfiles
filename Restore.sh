@@ -15,4 +15,4 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 fi
 
 
-echo "Congratulations, all done! Enjoy."
+echo "Congratulations, all done! Please restart Terminal. Enjoy."

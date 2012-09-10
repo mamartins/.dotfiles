@@ -546,7 +546,7 @@ chsh -s `which zsh`
 ###############################################################################
 
 for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" \
-  "Safari" "SizeUp" "SystemUIServer" "Terminal" "Transmission" "Twitter" \
+  "Safari" "SizeUp" "SystemUIServer" "Transmission" "Twitter" \
   "iCal" "iTunes"; do
   killall "$app" > /dev/null 2>&1
 done

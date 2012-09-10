@@ -25,8 +25,8 @@ function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; ki
 function pman() { ps=`mktemp -t manpageXXXX`.ps ; man -t $@ > "$ps" ; open "$ps" ; }
 
 #mysql easy start/stop
-alias mstart= 'mysql.server stop'
-alias mystop='mysql.server start'
+alias mstart= 'mysql.server start'
+alias mstop='mysql.server stop'
 
 #z
 . /Users/marcomartins/Dropbox/Dotfiles/z/z.sh
