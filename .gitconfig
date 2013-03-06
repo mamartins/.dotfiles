@@ -3,3 +3,18 @@
 	email = flf.neo4@gmail.com
 [credential]
 	helper = osxkeychain
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  status = auto
+[core]
+	excludesfile = /Users/marcomartins/.gitignore

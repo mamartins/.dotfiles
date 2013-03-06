@@ -1,2 +1,11 @@
-###my ssh###
+vendor/*
+bin/*
+*.DS_Store
+app/cache/*
+app/logs/*
+app/config/parameters.yml
+*~
+*.swp
+*.out
 .ssh
+.gitconfig
