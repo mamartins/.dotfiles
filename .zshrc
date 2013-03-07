@@ -15,9 +15,6 @@ export PATH="$(brew --prefix)/bin:$PATH"
 export PATH=/usr/local/sbin:/Users/marcomartins/.rvm/gems/ruby-1.9.3-p194/bin:/Users/marcomartins/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/marcomartins/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/marcomartins/.rvm/bin:./bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin
 
 
-# load RVM
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 #see/hide hidden files
 function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles YES ; killall Finder }
 function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; killall Finder }
@@ -37,7 +34,7 @@ weboff() {
 }
 
 #z
-. /Users/marcomartins/Dropbox/Dotfiles/z/z.sh
+. /Dropbox/Dotfiles/z/z.sh
 
 #I have a temp on a different hdd, needed for brew update git, code to do that:
 #sudo ditto /private/tmp /Volumes/your_hdd_name/private/tmp
