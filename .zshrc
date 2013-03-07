@@ -34,7 +34,7 @@ weboff() {
 }
 
 #z
-. /Dropbox/Dotfiles/z/z.sh
+. ~/Dropbox/Dotfiles/z/z.sh
 
 #I have a temp on a different hdd, needed for brew update git, code to do that:
 #sudo ditto /private/tmp /Volumes/your_hdd_name/private/tmp
