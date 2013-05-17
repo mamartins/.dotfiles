@@ -26,11 +26,15 @@ function pman() { ps=`mktemp -t manpageXXXX`.ps ; man -t $@ > "$ps" ; open "$ps"
 alias mstart= 'mysql.server start'
 alias mstop='mysql.server stop'
 
+#nginx easy start/stop
+alias ngon="sudo nginx"
+alias ngoff="sudo nginx -s stop"
+
 webon(){
-  mysql.server start; sudo nginx; sudo php-fpm
+  mstart; ngon; sudo php-fpm
 }
 weboff() {
-  mysql.server stop; sudo nginx -s stop; sudo killall php-fpm
+  mstop; ngoff; sudo killall php-fpm
 }
 
 #z
