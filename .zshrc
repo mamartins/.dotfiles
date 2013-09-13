@@ -24,7 +24,7 @@ function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; ki
 function pman() { ps=`mktemp -t manpageXXXX`.ps ; man -t $@ > "$ps" ; open "$ps" ; }
 
 #mysql easy start/stop
-alias mstart= 'mysql.server start'
+alias mstart='mysql.server start'
 alias mstop='mysql.server stop'
 
 #nginx easy start/stop
@@ -32,7 +32,7 @@ alias ngon="sudo nginx"
 alias ngoff="sudo nginx -s stop"
 
 webon(){
-  mstart; ngon; sudo php-fpm
+  mstart; ngon; sudo php-fpm &
 }
 weboff() {
   mstop; ngoff; sudo killall php-fpm
