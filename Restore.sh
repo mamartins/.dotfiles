@@ -10,7 +10,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   sh osx.sh
   echo "Starting brew configuration"
   sh brew.sh
-  echo "sync sublime prefs"
+  #echo "sync sublime prefs"
   sh setup-sync-sublime-over-dropbox.sh
 fi
 
