@@ -8,4 +8,5 @@ app/config/parameters.yml
 *.swp
 *.out
 .ssh
+*.php~
 .gitconfig
