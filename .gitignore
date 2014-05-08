@@ -4,6 +4,8 @@ bin/*
 app/cache/*
 app/logs/*
 app/config/parameters.yml
+web/bundles
+web/media
 *~
 *.swp
 *.out

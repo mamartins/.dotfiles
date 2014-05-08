@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH="$(brew --prefix)/bin:$PATH"
+export PATH="$(brew --prefix php55)/bin:$PATH"
 export PATH=/usr/local/sbin:"$(brew --prefix josegonzalez/php/php54)/bin:$PATH":./bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin
 
 
